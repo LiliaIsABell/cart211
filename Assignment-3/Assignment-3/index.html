@@ -17,6 +17,10 @@
       $(document).ready(changePage);
 
       function changePage() {
+
+        $.ajaxSetup({ cache: false }
+        );
+
         if (sessionStorage.getItem("Medusa") == "visited p.5") {
           $('head').html("<head><title>Sasha's Opinion</title>" +
 

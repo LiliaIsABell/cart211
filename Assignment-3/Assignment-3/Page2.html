@@ -15,6 +15,8 @@
       $(document).ready(changePage);
 
       function changePage() {
+        $.ajaxSetup({ cache: false }
+        );
         if (sessionStorage.getItem("Medusa") == "visited p.5") {
           $('head').html('<title>Bloop Bloop Review</title><link rel="stylesheet" href="style2.css" /><link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">');
 
