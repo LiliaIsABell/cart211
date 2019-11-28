@@ -1,0 +1,83 @@
+/* This code was made by Colin from codepen.io */
+html,
+body {
+  margin: 0;
+  font-family: 'Jomolhari', serif;
+}
+
+.trail {
+  width: 20px;
+  height: 20px;
+  background: #ffbaba;
+  position: fixed;
+  border-radius: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-filter: blur(10px);
+}
+
+/* This code was made by Colin from codepen.io */
+.img2 {
+  float: right;
+  margin: 15px;
+}
+
+.img3 {
+  float: center;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 5em;
+  color: #bf1942;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+p2 {
+  font-size: 2em;
+}
+
+.div3 {
+  width: inherit;
+  border: 100px;
+  padding: 100px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  text-align: left;
+  text-align: justify;
+  text-indent: 80px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div4 {
+  margin: auto;
+  /* margin-right: 100px; */
+  text-align: right;
+}
+
+button {
+  background-color: #bf1942;
+  border-radius: 550px;
+  color: #ffbaba;
+  /* padding: 15px 32px; */
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 3.5em; */
+}
+
+button:hover {
+  color: #0213c9;
+  background-color: #75d8ff;
+}

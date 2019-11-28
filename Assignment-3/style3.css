@@ -1,0 +1,28 @@
+/* This code was made by Colin from codepen.io */
+html,
+body {
+  margin: 0;
+  font-family: 'Jomolhari', serif;
+}
+
+.trail {
+  width: 20px;
+  height: 20px;
+  background: rgb(0, 0, 255);
+  position: fixed;
+  border-radius: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-filter: blur(10px);
+}
+
+/* #trail4{
+  background:green;
+}
+#trail5{
+  background:blue;
+}
+#trail6{
+  background:purple;
+} */

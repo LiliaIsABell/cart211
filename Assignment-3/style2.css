@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Caveat', cursive;
+  background-color: #ffbaba;
+}
+
+h2 {
+  font-size: 5em;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.div1 {
+  margin-left: 487px;
+  margin-right: 487px;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #ffcdcc;
+  text-align: center;
+  content: inherit;
+}
+
+.div2 {
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #ffcdcc;
+  text-align: center;
+  content: inherit;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 487px;
+  margin-right: 487px;*/
+  background-color: #ffcdcc;
+  text-align: center;
+  content: inherit;
+}
+
+p1 {
+  font-size: 2em;
+}
+
+.img1 {
+  position: absolute;
+  z-index: -1;
+}
+
+.img2 {
+  position: absolute;
+  z-index: -1;
+}
+
+.img3 {
+  margin-top: 100px;
+}
+
+.button1 {
+  background-color: #4aba3c;
+  border-radius: 50px;
+  color: #19630f;
+  padding: 15px 32px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.button1:hover {
+  background-color: #19630f;
+  color: #4aba3c;
+}
+
+.button2 {
+  background-color: #fcc76a;
+  border-radius: 50px;
+  color: #ffb330;
+  padding: 15px 32px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.button2:hover {
+  background-color: #ffb330;
+  color: #fcc76a;
+}
+
+.button3 {
+  background-color: #ffadad;
+  border-radius: 50px;
+  color: #fa2525;
+  padding: 15px 32px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.button3:hover {
+  background-color: #fa2525;
+  color: #ffadad;
+}
+
+.button4 {
+  background-color: #4dadf7;
+  border-radius: 50px;
+  color: #1005ab;
+  padding: 15px 32px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.button4:hover {
+  background-color: #1005ab;
+  color: #4dadf7;
+}
+
+.button5 {
+  background-color: #ab87ff;
+  border-radius: 50px;
+  color: #6e00ad;
+  padding: 15px 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.button5:hover {
+  background-color: #6e00ad;
+  color: #ab87ff;
+}
+
+.button6 {
+  background-color: #b8fff7;
+  border-radius: 50px;
+  color: #00c7b0;
+  padding: 15px 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.button6:hover {
+  background-color: #00c7b0;
+  color: #b8fff7;
+}
+
+.button7 {
+  background-color: #ff9a63;
+  border-radius: 50px;
+  color: #fc5800;
+  padding: 15px 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.button7:hover {
+  background-color: #fc5800;
+  color: #ff9a63;
+}
